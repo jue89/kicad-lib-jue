@@ -1,0 +1,120 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# C_H
+#
+DEF C_H C 0 10 N Y 1 F N
+F0 "C" 100 50 50 H V L CNN
+F1 "C_H" 100 -50 50 H V L CNN
+F2 "" 38 -150 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20  -80 -30  80 -30 N
+P 2 0 1 20  -80 30  80 30 N
+X ~ 1 0 150 110 D 40 40 1 1 P
+X ~ 2 0 -150 110 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_V
+#
+DEF C_V C 0 10 N Y 1 F N
+F0 "C" 0 150 50 H V C CNN
+F1 "C_V" 0 -150 50 H V C CNN
+F2 "" 150 38 50 V V C CNN
+F3 "" 0 0 50 V V C CNN
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20  -30 -80  -30 80 N
+P 2 0 1 20  30 -80  30 80 N
+X ~ 1 -150 0 110 R 40 40 1 1 P
+X ~ 2 150 0 110 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# L_H
+#
+DEF L_H L 0 0 N Y 1 F N
+F0 "L" 100 50 50 H V L CNN
+F1 "L_H" 100 -50 50 H V L CNN
+F2 "" -70 0 50 V V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ L_*
+ Inductor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 F
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# L_V
+#
+DEF L_V L 0 0 N Y 1 F N
+F0 "L" 0 100 50 H V C CNN
+F1 "L_V" 0 -100 50 H V C CNN
+F2 "" 0 -70 50 H V C CNN
+F3 "" 0 0 50 V V C CNN
+$FPLIST
+ L_*
+ Inductor_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 F
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_H
+#
+DEF R_H R 0 0 N Y 1 F N
+F0 "R" 100 50 50 H V L CNN
+F1 "R_H" 100 -50 50 H V L CNN
+F2 "" -70 0 50 V V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_V
+#
+DEF R_V R 0 0 N Y 1 F N
+F0 "R" 0 100 50 H V C CNN
+F1 "R_V" 0 -100 50 H V C CNN
+F2 "" 0 -70 50 H V C CNN
+F3 "" 0 0 50 V V C CNN
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

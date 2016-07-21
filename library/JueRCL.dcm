@@ -1,0 +1,31 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C_H
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP C_V
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP L_H
+D Inductor
+K L DEV
+$ENDCMP
+#
+$CMP L_V
+D Inductor
+K L DEV
+$ENDCMP
+#
+$CMP R_H
+D Resistor
+K R DEV
+$ENDCMP
+#
+$CMP R_V
+D Resistor
+K R DEV
+$ENDCMP
+#
+#End Doc Library
