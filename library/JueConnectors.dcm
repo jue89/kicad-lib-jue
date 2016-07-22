@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MS-156NB
+D Hirose MS-156NB Subminiature Coaxial Switch
+K Testpoint HF
+$ENDCMP
+#
 #End Doc Library
