@@ -1,5 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CP_H
+D Polarised capacitor
+$ENDCMP
+#
+$CMP CP_V
+D Polarised capacitor
+$ENDCMP
+#
 $CMP C_H
 D Unpolarized capacitor
 $ENDCMP
